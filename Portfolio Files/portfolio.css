@@ -53,7 +53,7 @@ a {
 #picture-muhammaduquaily {
     width: 400px;
     height: 400px;
-    background-image: url('/Images/uqully.jpeg');
+    background-image: url('../Images/uqully.jpeg');
     background-size: cover;
     background-position: center;
     border-radius: 50%;
