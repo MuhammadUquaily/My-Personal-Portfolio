@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin:0;
+    padding: 0;
+    background-color: black;
+    color:white;
+}
+header {
+    background-color: #000080;
+    color:white;
+    width:100%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+#nav-list {
+    list-style: none;
+    font-family: 'Inria Serif',Helvetica,  serif, sans-serif;
+    display:inline-flex;
+    justify-content: space-around;
+    width:100%;
+    font-style:italic;
+    font-size: 25px;
+    padding: 4px;
+}
+
+#nav-muhammaduquaily {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    position: relative; /* Allows for absolute positioning within */
+    width: 100%;
+    margin-bottom:115px;
+    margin-top:50px;
+}
+
+#picture-muhammaduquaily {
+    width: 400px;
+    height: 400px;
+    background-image: url('/Images/uqully.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#heading-muhammaduquaily {
+    font-family: 'Vollkorn SC', 'Italiano';
+    font-size: 38px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 30%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    font-weight: 200;
+}
+
+section {
+    background-color: #151515;
+    width:90%;
+    margin-left:5%;
+    border-radius: 20px;
+    text-align:center;
+    padding:90px;
+    margin-bottom:120px;
+    font-size:18px;
+    margin-top: 60px;
+}
+
+#about {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 40px; 
+}
+
+#about-heading {
+    text-align:left;
+    margin-left:4px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 8px;
+}
+
+#about-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    margin-left: 8px;
+}
+
+#about img {
+    width:180px;
+    height:320px;
+    border-radius: 6px;
+}
+
+#all-projects {
+    display:flex;
+    justify-content: space-bewteen;
+    flex-wrap: wrap;
+    margin-bottom: 300px;
+}
+
+#lcc img, #tsunami-coffee img, #form-a-story img {
+    width: 225px;
+    height: 110px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 18px;
+}
+
+#lcc, #tsunami-coffee, #form-a-story {
+    padding: 40px;
+    margin: auto auto;
+    width: 300px;
+}
+
+#projects-header {
+    margin-bottom: 60px;
+}
+
+#projects a {
+    text-decoration: underline;
+    color:aliceblue;
+}
+
+#skills img {
+    height:120px;
+    width:auto;
+    margin:20px;
+}
+
